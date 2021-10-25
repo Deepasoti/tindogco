@@ -1,0 +1,182 @@
+#title{
+  background-color: #FF9292;
+  color: #fff;
+
+
+}
+
+h1{
+font-family: 'Montserrat-bold', sans-serif;
+font-size: 4rem;
+line-height:1.5;
+}
+h2{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  color: #fff;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+body{
+  font-family: 'Montserrat';
+}
+/* navbar */
+.logo{
+  font-family:'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navitem{
+  padding: 0 18px;
+}
+.navlink{
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
+  color: #fff;
+
+}
+
+.navbar-toggler
+{
+color: #fff;
+
+}
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* iphone-image */
+.iphone-img{
+  width:320px;
+  transform:rotate(25deg);
+  position: absolute;
+
+
+
+
+
+}
+
+/* features */
+#features{
+  background-color: #fff;
+  margin: auto;
+  padding: 7% 14%;
+  position: relative;
+  z-index: 1;
+}
+.rowdiv{
+  padding:5%;
+  text-align: center;
+
+}
+
+p{
+  color: #8f8f8f;
+}
+/* fontawesome */
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+i:hover{
+  color: #FF5C58;
+}
+
+
+ /* testimonials */
+
+ #testimonials{
+   text-align: center;
+
+   background-color: #FF5C58;
+ }
+.testimonials-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 7%;
+}
+
+/* press */
+
+#press{
+  background-color:  #FF5C58;
+  text-align: center;
+}
+
+  .press-image{
+    width: 13%;
+    margin: 20px 20px 50px;
+  }
+ /* carousel-testimonial */
+
+ .carousel-item{
+   padding: 7% 14%;
+ }
+
+ /* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-box{
+  padding: 3% 2%;
+}
+
+/* media query */
+@media (max-width:1028px) {
+.iphone-img{
+  position: static;
+  transform: rotate(0);
+}
+
+#title{
+  text-align: center;
+}
+}
+
+/* call to action */
+#cta{
+  background-color:  #FF9292;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+h4{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+
+   /* footer section */
+
+#footer{
+padding:  7% 15%;
+background-color: #fff;
+text-align: center;
+}
+.social-icon{
+  margin :20px 10px;
+}
